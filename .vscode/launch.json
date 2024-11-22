@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch tareas-react",
+            "type": "firefox",
+            "request": "launch",
+            "url": "http://localhost:5173", // Cambia este puerto si Vite usa otro
+            "webRoot": "${workspaceFolder}",
+            "runtimeExecutable": "/usr/bin/firefox" // Asegúrate de que esta ruta es correcta
+        }
+    ]
+}

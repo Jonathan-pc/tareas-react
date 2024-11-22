@@ -1,0 +1,20 @@
+div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  label {
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  input[type="checkbox"]:checked {
+    accent-color: green;  
+  }
+  
+  input[type="checkbox"]:not(:checked) {
+    accent-color: red;  
+  }
+  

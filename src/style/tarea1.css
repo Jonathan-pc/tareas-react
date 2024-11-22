@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .tarjeta {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .tarjeta-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .tarjeta-data {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .post {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .post-header {
+    margin-bottom: 20px;
+  }
+  
+  .post-title {
+    font-size: 1.5em;
+    margin: 0;
+  }
+  
+  .post-paragraph {
+    margin: 10px 0;
+  }
+  

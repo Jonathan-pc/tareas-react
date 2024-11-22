@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  h2 {
+    margin-top: 30px;
+    color: #555;
+    text-align: center;
+  }
+  
+  input {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  input.input-match {
+    border-color: #ff6f61; 
+    background-color: #ffe6e0;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.2);
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  div {
+    margin-bottom: 40px;
+  }
+  
+  input[type="password"] {
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 1px;
+  }
+  
+  input.input-match {
+    border-color: #ff4d4d; 
+    background-color: #ffcccc;
+  }
+  
+  
